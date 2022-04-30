@@ -7,6 +7,7 @@ class ExplosiveSnowballs : JavaPlugin() {
     override fun onEnable() {
         // Plugin startup logic
         logger.log(Level.INFO, "Hello, world!")
+        This is a compile error!
     }
 
     override fun onDisable() {
