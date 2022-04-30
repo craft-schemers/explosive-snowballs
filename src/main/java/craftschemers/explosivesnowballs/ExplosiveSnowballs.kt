@@ -7,6 +7,7 @@ class ExplosiveSnowballs : JavaPlugin() {
 
         println("Enabled")
         server.pluginManager.registerEvents(PlayerEventListener(), this)
+        server.pluginManager.registerEvents(SnowballContactListener(), this)
 
     }
 
