@@ -1,0 +1,4 @@
+name: explosive-snowballs
+version: '${version}'
+main: craftschemers.explosivesnowballs.ExplosiveSnowballs
+api-version: 1.18
