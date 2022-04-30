@@ -15,5 +15,4 @@ class SnowballContactListener : Listener {
             world.createExplosion(snowball.location, 4f);
         }
     }
-
 }
