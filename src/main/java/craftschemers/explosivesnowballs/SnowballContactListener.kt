@@ -12,7 +12,7 @@ class SnowballContactListener : Listener {
         if (event.entity is Snowball) {
             val snowball = event.entity
             val world = snowball.world
-            world.createExplosion(snowball.location, 4f);
+            world.createExplosion(snowball.location, 4f, false, true, snowball)
         }
     }
 }
