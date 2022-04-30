@@ -7,6 +7,7 @@ class ExplosiveSnowballs : JavaPlugin() {
     override fun onEnable() {
         // Plugin startup logic
         logger.log(Level.INFO, "Hello, world!")
+        logger.log(Level.INFO, "Another log!")
     }
 
     override fun onDisable() {
